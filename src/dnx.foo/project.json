@@ -1,0 +1,12 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "dnx.foo Class Library",
+  "authors": [ "ahammond" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": { }
+    }
+}

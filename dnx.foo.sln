@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{06FBDBE6-B758-4806-AB57-CD07200BF36D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69621851-9AE3-4919-A183-C0A037375D52}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dnx.foo", "src\dnx.foo\dnx.foo.xproj", "{8C78D9CA-8FAF-4C10-A076-3591689B0878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{19D8D93E-EC7A-44F1-901C-DBFFF8DFC9E8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "dnx.foo.tests", "dnx.foo.tests\dnx.foo.tests.xproj", "{71F108B4-6939-4284-9836-3CE5B21D85AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C78D9CA-8FAF-4C10-A076-3591689B0878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C78D9CA-8FAF-4C10-A076-3591689B0878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C78D9CA-8FAF-4C10-A076-3591689B0878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C78D9CA-8FAF-4C10-A076-3591689B0878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F108B4-6939-4284-9836-3CE5B21D85AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F108B4-6939-4284-9836-3CE5B21D85AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F108B4-6939-4284-9836-3CE5B21D85AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F108B4-6939-4284-9836-3CE5B21D85AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C78D9CA-8FAF-4C10-A076-3591689B0878} = {06FBDBE6-B758-4806-AB57-CD07200BF36D}
+		{71F108B4-6939-4284-9836-3CE5B21D85AC} = {19D8D93E-EC7A-44F1-901C-DBFFF8DFC9E8}
+	EndGlobalSection
+EndGlobal
